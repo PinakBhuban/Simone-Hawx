@@ -1,0 +1,388 @@
+.careers-upper-footer {
+    width: 100%;
+    max-width: 1200px;
+    margin: 0 auto;
+    color: #FFFFFF;
+    display: -webkit-box;
+    display: -webkit-flex;
+    display: -ms-flexbox;
+    display:         flex;
+    flex-direction: column;
+}
+@media all and (min-width: 768px){
+    .careers-upper-footer {
+        flex-direction: row;
+    }
+}
+.careers-upper-footer h2 {
+    margin: 0 0 1.125rem 0;
+    color: #171717;
+    font-family: "Basis Grotesque", Arial, Helvetica, sans-serif;
+    font-size: 1.75rem;
+    line-height: 2rem;
+    font-weight: 100;
+    color: #00203E;
+}
+.basis-grotesque .careers-upper-footer h2 {
+    font-family: 'Basis Grotesque', Arial, Helvetica, sans-serif;
+}
+@media all and (min-width: 768px) {
+    .careers-upper-footer h2 {
+        font-size: 2.6875rem;
+        line-height: 3.25rem;
+    }
+}
+.careers-upper-footer h2 {
+    font-size: 1.375rem;
+    text-align: center;
+    text-transform: none;
+}
+@media all and (min-width: 768px) {
+    .careers-upper-footer h2 {
+        text-align: left;
+        font-size: 1.5rem;
+        line-height: 2.25rem;
+        margin-bottom: 1.875rem;
+    }
+}
+@media all and (min-width: 992px) {
+    .careers-upper-footer h2 {
+        font-size: 1.875rem;
+        margin-bottom: 3.125rem;
+    }
+}
+.careers-upper-footer .user-select-buttons-container {
+    width: 100%;
+    height: 100%;
+}
+@media all and (min-width: 768px) {
+    .careers-upper-footer .user-select-buttons-container {
+        width: 100%;
+        float: left;
+        margin-left: 0;
+        margin-right: 0;
+        position: relative;
+    }
+    .careers-upper-footer .user-select-buttons-container .right-column{
+        position: absolute;
+        top: 50%;
+        transform: translateY(-50%);
+    }
+}
+.careers-upper-footer .background-layer {
+    max-width: 1200px;
+    position: absolute;
+    top: 0;
+    width: 100%;
+    z-index: 0;
+    display: none;
+}
+.careers-upper-footer .background-layer .bg {
+    width: 100%;
+    height: 100%;
+    position: absolute;
+}
+.careers-upper-footer .content-layer {
+    max-width: 1200px;
+    position: relative;
+    top: 0;
+    width: 100%;
+    z-index: 1;
+}
+.careers-upper-footer .horizontal-rule {
+    background: #C6C6C6;
+    height: 1px;
+    width: 90%;
+    position: absolute;
+    left: 0;
+    right: 0;
+    margin: 0 auto;
+    top: 0;
+    display: block;
+}
+@media all and (min-width: 768px) {
+    .careers-upper-footer .horizontal-rule {
+        display: none;
+    }
+}
+.careers-upper-footer .social-container {
+    height: 2.8125rem;
+    display: -webkit-box;
+    display: -webkit-flex;
+    display: -ms-flexbox;
+    display:         flex;
+    justify-content: center;
+}
+@media all and (min-width: 768px) {
+    .careers-upper-footer .social-container {
+        justify-content: flex-start;
+    }
+}
+.careers-upper-footer .social-container i {
+    font-size: 1.5625rem;
+}
+@media all and (min-width: 768px) {
+    .careers-upper-footer .social-container i {
+        font-size: 1.3125rem;
+    }
+}
+@media all and (min-width: 992px) {
+    .careers-upper-footer .social-container i {
+        font-size: 1.5625rem;
+    }
+}
+.careers-upper-footer .social-container .cta {
+    margin-right: 1rem;
+    margin-top: .625rem;
+    margin-left: 1rem;
+}
+.careers-upper-footer .social-container .cta a{
+    color: #22A2FF;
+    text-decoration: none;
+ }
+.careers-upper-footer .social-container .cta a:focus{
+    outline: 2px solid #FFEA00 !important;
+    height: 10%;
+}
+@media all and (min-width: 768px) {
+    .careers-upper-footer .social-container .cta {
+        margin-right: 1.5rem;
+        margin-left: 0;
+    }
+}
+@media all and (min-width: 992px) {
+    .careers-upper-footer .social-container .cta {
+        margin-right: 2.1875rem;
+        margin-left: 0;
+    }
+}
+.careers-upper-footer .social-container .cta a:hover {
+    color: #316BB6;
+}
+.careers-upper-footer .left-column {
+    padding: 3.125rem;
+}
+@media all and (min-width: 768px) {
+    .careers-upper-footer .left-column {
+        padding: 0;
+        width: 40.67797%;
+        float: left;
+        margin-left: 8.47458%;
+        margin-right: -100%;
+        height: 100%;
+    }
+}
+@media all and (min-width: 992px) {
+    .careers-upper-footer .left-column {
+        padding: 0;
+        width: 40.67797%;
+        float: left;
+        margin-left: 8.47458%;
+        margin-right: -100%;
+        height: 100%;
+    }
+}
+@media all and (min-width: 1400px) {
+    .careers-upper-footer .left-column {
+        padding: 0;
+        width: 40.67797%;
+        float: left;
+        margin-left: 0;
+        margin-right: -100%;
+        height: 100%;
+    }
+}
+.careers-upper-footer .column-inner-container {
+    display: -webkit-box;
+    display: -webkit-flex;
+    display: -ms-flexbox;
+    display:         flex;
+    -webkit-box-orient: vertical;
+    -webkit-box-direction: normal;
+    -webkit-flex-direction: column;
+        -ms-flex-direction: column;
+            flex-direction: column;
+    -webkit-box-pack: center;
+    -webkit-justify-content: center;
+    -ms-flex-pack: center;
+            justify-content: center;
+    height: 100%;
+}
+@media all and (min-width: 768px) {
+    .careers-upper-footer .column-inner-container {
+        padding-top: 1rem;
+        padding-bottom: 1rem;
+    }
+}
+@media all and (min-width: 992px) {
+    .careers-upper-footer .column-inner-container {
+        padding-top: 4.5rem;
+        padding-bottom: 4.5rem;
+    }
+}
+.careers-upper-footer .right-column {
+    position: relative;
+    padding: 3.125rem;
+}
+@media all and (min-width: 768px) {
+    .careers-upper-footer .right-column {
+        padding: 0;
+        width: 32.20339%;
+        float: left;
+        margin-left: 59.32203%;
+        margin-right: -100%;
+        height: 100%;
+    }
+}
+@media all and (min-width: 1200px) {
+    .careers-upper-footer .right-column {
+        padding: 0;
+        width: 32.20339%;
+        float: left;
+        margin-left: 59.32203%;
+        margin-right: -100%;
+        height: 100%;
+    }
+}
+.careers-upper-footer .cta {
+    color: #22A2FF;
+    text-transform: uppercase;
+    letter-spacing: .125rem;
+    font-family: 'UniversLTW01-65Bold', sans-serif;
+    font-size: .625rem;
+    -webkit-transition: color .5s, background .5s, border-color .5s;
+            transition: color .5s, background .5s, border-color .5s;
+    text-decoration: none;
+}
+@media all and (min-width: 768px) {
+    .careers-upper-footer .cta {
+        font-size: .5rem;
+    }
+}
+@media (any-hover: none) {
+    .careers-upper-footer .cta {
+        color: #22A2FF;
+    }
+}
+.careers-upper-footer .cta:hover {
+    color: #FFFFFF;
+}
+.careers-upper-footer .briefings__sign-up input {
+    padding: .625rem 1.25rem;
+    font-family: 'Univers LT W01 55 Roman';
+    line-height: 1.3125rem;
+    color: #434343;
+    font-size: .875rem;
+    width: 100%;
+    max-width: 20.9375rem;
+    display: inline-block;
+    height: 2.1875rem;
+    border: solid 1px #E1E1E1;
+    border-radius: 0;
+    -webkit-appearance: none;
+       -moz-appearance: none;
+            appearance: none;
+}
+@media all and (min-width: 768px) {
+    .careers-upper-footer .briefings__sign-up input {
+        font-size: 1rem;
+        line-height: 1.625rem;
+    }
+}
+.careers-upper-footer .briefings__sign-up input::-webkit-input-placeholder {
+    font-size: .875rem;
+}
+.careers-upper-footer .briefings__sign-up input:-moz-placeholder {
+    font-size: .875rem;
+}
+.careers-upper-footer .briefings__sign-up input::-moz-placeholder {
+    font-size: .875rem;
+}
+.careers-upper-footer .briefings__sign-up input:-ms-input-placeholder {
+    font-size: .875rem;
+}
+@media all and (min-width: 768px) {
+    .careers-upper-footer .briefings__sign-up input {
+        width: 65%;
+    }
+}
+@media all and (min-width: 768px) {
+    .careers-upper-footer .briefings__sign-up input {
+        height: 2.5rem;
+    }
+}
+.careers-upper-footer .briefings__sign-up input.error {
+    border: 2px solid #FF4B41;
+}
+.careers-upper-footer .briefings__sign-up button {
+    color: #FFFFFF;
+    text-transform: uppercase;
+    letter-spacing: .125rem;
+    font-family: 'Basis Grotesque', Arial, Helvetica, sans-serif;
+    font-weight: bold;
+    font-size: .625rem;
+    -webkit-transition: color .5s, background .5s, border-color .5s;
+            transition: color .5s, background .5s, border-color .5s;
+    text-decoration: none;
+    width: 50%;
+    height: 2.1875rem;
+    max-width: 8.75rem;
+    border: 0;
+    border-radius: 0;
+    background: #22A2FF;
+    padding: 0;
+    display: block;
+    position: relative;
+    margin: .9375rem auto 0 auto;
+    cursor: pointer;
+}
+.careers-upper-footer .briefings__sign-up button:focus {
+    outline: 2px solid #FFEA00 !important;
+}
+@media all and (min-width: 768px) {
+    .careers-upper-footer .briefings__sign-up button {
+        font-size: .6875rem;
+    }
+}
+@media (any-hover: none) {
+    .careers-upper-footer .briefings__sign-up button {
+        color: #FFFFFF;
+    }
+}
+.careers-upper-footer .briefings__sign-up button:hover {
+    color: #005080;
+}
+@media all and (min-width: 768px) {
+    .careers-upper-footer .briefings__sign-up button {
+        width: 31%;
+        height: 2.5rem;
+    }
+}
+@media all and (min-width: 992px) {
+    .careers-upper-footer .briefings__sign-up button {
+        width: 28%;
+    }
+}
+.careers-upper-footer .briefings__sign-up button:hover {
+    background: #005080;
+    color: #FFFFFF;
+}
+@media all and (min-width: 768px) {
+    .careers-upper-footer .briefings__sign-up button {
+        display: inline-block;
+        margin: 0 0 0 .1875rem;
+    }
+}
+.careers-upper-footer .social-container i.icon-instagram {
+    background: url(/a/pgs/images/icon-instagram-blue.png) no-repeat center center;
+    width: calc(1.5625rem + 2px);
+    height: 1.5625rem;
+    display: block;
+    background-size: contain;
+}
+@media all and (min-width: 768px) and (max-width: 991px) {
+    .careers-upper-footer .social-container i.icon-instagram {
+        width: calc(1.3125rem + 2px);
+        height: 1.3125rem;
+    }
+}

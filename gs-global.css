@@ -1,0 +1,1207 @@
+.gs-component {
+    margin-top: 60px;
+}
+
+@media (min-width: 768px) {
+    .gs-component {
+        margin-bottom: 72px;
+    }
+    .gs-component > .gs-section-header {
+        padding: 0;
+    }
+}
+
+@media (min-width: 992px) {
+    .gs-component {
+        margin-bottom: 88px;
+    }
+}
+
+.container .gs-component {
+    margin-top: 0;
+}
+
+@media (min-width: 768px){
+    .container .gs-component {
+        margin-bottom: 55px;
+        margin-top: 120px;
+    }
+}
+
+header {
+    height: initial;
+    width: initial;
+    margin: 0;
+}
+
+@font-face {
+    font-family: 'gs';
+    src: url("/a/pgs/Fonts/icons/gs.ttf?eb6kdh") format("truetype"), url("../assets/fonts/icons/gs.woff?eb6kdh") format("woff"), url("../assets/fonts/icons/gs.svg?eb6kdh#gs") format("svg");
+    font-weight: normal;
+    font-style: normal;
+    font-display: block;
+}
+
+/* line 64, app/scss/_fonts.scss */
+[class^="ico-"]:before, [class*=" ico-"]:before {
+    /* use !important to prevent issues with browser extensions that change fonts */
+    font-family: 'gs', Arial, sans-serif;
+    speak: never;
+    font-style: normal;
+    font-weight: normal;
+    font-variant: normal;
+    text-transform: none;
+    line-height: 1;
+    /* Better Font Rendering =========== */
+    -webkit-font-smoothing: antialiased;
+    -moz-osx-font-smoothing: grayscale;
+}
+
+/* line 79, app/scss/_fonts.scss */
+.ico-close:before {
+    content: "\e90c";
+}
+
+/* line 82, app/scss/_fonts.scss */
+.ico-team-grid:before {
+    content: "\e90a";
+}
+
+/* line 85, app/scss/_fonts.scss */
+.ico-team-slider:before {
+    content: "\e90b";
+}
+
+/* line 88, app/scss/_fonts.scss */
+.ico-video-small:before {
+    content: "\e909";
+}
+
+/* line 91, app/scss/_fonts.scss */
+.ico-grid:before {
+    content: "\e907";
+}
+
+/* line 94, app/scss/_fonts.scss */
+.ico-slider:before {
+    content: "\e908";
+}
+
+/* line 97, app/scss/_fonts.scss */
+.ico-audio:before {
+    content: "\e901";
+}
+
+/* line 100, app/scss/_fonts.scss */
+.ico-video:before {
+    content: "\e904";
+}
+
+/* line 103, app/scss/_fonts.scss */
+.ico-accordion-1:before {
+    content: "\e905";
+}
+
+/* line 106, app/scss/_fonts.scss */
+.ico-accordion-2:before {
+    content: "\e906";
+}
+
+/* line 109, app/scss/_fonts.scss */
+.ico-accordion-3:before {
+    content: "\e928";
+}
+
+/* line 112, app/scss/_fonts.scss */
+.ico-accordion-4:before {
+    content: "\e929";
+}
+
+/* line 115, app/scss/_fonts.scss */
+.ico-accordion-5:before {
+    content: "\e92a";
+}
+
+/* line 118, app/scss/_fonts.scss */
+.ico-accordion-6:before {
+    content: "\e92b";
+}
+
+/* line 121, app/scss/_fonts.scss */
+.ico-accordion-7:before {
+    content: "\e92c";
+}
+
+/* line 124, app/scss/_fonts.scss */
+.ico-arrow-top:before {
+    content: "\e902";
+}
+
+/* line 127, app/scss/_fonts.scss */
+.ico-explore:before {
+    content: "\e903";
+}
+
+/* line 130, app/scss/_fonts.scss */
+.ico-lg:before {
+    content: "\e900";
+}
+
+/* line 134, app/scss/_fonts.scss */
+.ico-checkmark:before {
+    content: "\e911";
+}
+
+/* line 138, app/scss/_fonts.scss */
+.ico-quote:before {
+    content: "\e90d";
+}
+
+/* line 4, app/scss/_grid.scss */
+.gs-grid {
+    max-width: 1120px;
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr 1fr 1fr 1fr 1fr 1fr;
+    grid-gap: 0.75rem;
+    gap: 0.75rem;
+    -moz-column-gap: 0.75rem;
+    column-gap: 0.75rem;
+    row-gap: 0.75rem;
+    margin: 0 1rem;
+}
+
+@media all and (-ms-high-contrast: none), (-ms-high-contrast: active) {
+    /* line 266, app/scss/_mixins.scss */
+    .gs-grid > * {
+        margin: calc(0.75rem/2) calc(0.75rem/2);
+    }
+}
+
+@media all and (-ms-high-contrast: none), (-ms-high-contrast: active) {
+    /* line 4, app/scss/_grid.scss */
+    .gs-grid {
+        display: flex;
+        flex-direction: row;
+        flex-wrap: wrap;
+    }
+    /* line 286, app/scss/_mixins.scss */
+    .gs-grid > * {
+        width: calc((100% / 8) - 0.75rem);
+    }
+}
+
+@media all and (-ms-high-contrast: none), (-ms-high-contrast: active) {
+    /* line 4, app/scss/_grid.scss */
+    .gs-grid {
+        width: 100%;
+    }
+}
+
+@media all and (min-width: 768px) {
+    /* line 4, app/scss/_grid.scss */
+    .gs-grid {
+        display: grid;
+        grid-template-columns: 1fr 1fr 1fr 1fr 1fr 1fr 1fr 1fr;
+        grid-gap: 1.5rem;
+        gap: 1.5rem;
+        -moz-column-gap: 1.5rem;
+        column-gap: 1.5rem;
+        row-gap: 1.5rem;
+        margin: 0 2.75rem;
+    }
+}
+
+@media all and (min-width: 768px) and (-ms-high-contrast: none), all and (min-width: 768px) and (-ms-high-contrast: active) {
+    /* line 266, app/scss/_mixins.scss */
+    .gs-grid > * {
+        margin: calc(1.5rem/2) calc(1.5rem/2);
+    }
+}
+
+@media all and (min-width: 768px) and (-ms-high-contrast: none), all and (min-width: 768px) and (-ms-high-contrast: active) {
+    /* line 4, app/scss/_grid.scss */
+    .gs-grid {
+        display: flex;
+        flex-direction: row;
+        flex-wrap: wrap;
+    }
+    /* line 286, app/scss/_mixins.scss */
+    .gs-grid > * {
+        width: calc((100% / 8) - 1.5rem);
+    }
+}
+
+@media all and (min-width: 992px) {
+    /* line 4, app/scss/_grid.scss */
+    .gs-grid {
+        display: grid;
+        grid-template-columns: 1fr 1fr 1fr 1fr 1fr 1fr 1fr 1fr 1fr 1fr 1fr 1fr;
+        grid-gap: 2rem;
+        gap: 2rem;
+        -moz-column-gap: 2rem;
+        column-gap: 2rem;
+        row-gap: 2rem;
+    }
+}
+
+@media all and (min-width: 992px) and (-ms-high-contrast: none), all and (min-width: 992px) and (-ms-high-contrast: active) {
+    /* line 266, app/scss/_mixins.scss */
+    .gs-grid > * {
+        margin: calc(2rem/2) calc(2rem/2);
+    }
+}
+
+@media all and (min-width: 992px) and (-ms-high-contrast: none), all and (min-width: 992px) and (-ms-high-contrast: active) {
+    /* line 4, app/scss/_grid.scss */
+    .gs-grid {
+        display: flex;
+        flex-direction: row;
+        flex-wrap: wrap;
+    }
+    /* line 286, app/scss/_mixins.scss */
+    .gs-grid > * {
+        width: calc((100% / 12) - 2rem);
+    }
+}
+
+@media all and (min-width: 1200px) {
+    /* line 4, app/scss/_grid.scss */
+    .gs-grid {
+        margin: 0 auto;
+    }
+}
+
+/* line 14, app/scss/_btn.scss */
+.gs-btn, .gs-btn-white, .gs-btn-white-hollow {
+    overflow: visible;
+}
+
+/* line 16, app/scss/_btn.scss */
+.gs-btn:after, .gs-btn-white:after {
+    transition: all 0.3s ease-in-out;
+    content: "";
+    position: absolute;
+    width: calc(100% - 2px);
+    height: calc(100% - 2px);
+    background: transparent;
+    border: 1px solid #241d1d;
+    top: 0px;
+    left: 0px;
+    z-index: 0;
+    box-sizing: content-box;
+    font-weight: bold;
+}
+
+.gs-btn-white-hollow {
+
+}
+
+.gs-btn-secondary:after {
+    box-sizing: content-box;
+}
+
+@media (min-width: 992px) {
+    /* line 22, app/scss/_btn.scss */
+    .gs-btn:hover:after, .gs-btn-white:hover:after, .gs-btn:focus:after, .gs-btn-white:focus:after {
+        border-width: 4px;
+        top: -3px;
+        left: -3px;
+    }
+}
+
+/* line 31, app/scss/_btn.scss */
+.gs-btn {
+    font-family: 'Basis Grotesque', Arial, Helvetica, sans-serif;
+    font-weight: 500;
+    font-size: 14px;
+    line-height: 22px;
+    display: inline-flex;
+    justify-content: center;
+    align-items: center;
+    height: 38px;
+    padding: 0 24px;
+    min-width: 160px;
+    box-sizing: border-box;
+    position: relative;
+    color: #fff;
+    background: #241d1d;
+    text-decoration: none;
+}
+
+/* line 219, app/scss/_mixins.scss */
+.gs-btn:focus-visible {
+    outline: 2px dashed #7399c6;
+    outline-offset: 4px;
+}
+
+@media all and (-ms-high-contrast: none), (-ms-high-contrast: active) {
+    /* line 224, app/scss/_mixins.scss */
+    .gs-btn:focus {
+        outline: 2px dashed #7399c6;
+        outline-offset: 4px;
+    }
+}
+
+/* line 174, app/scss/_mixins.scss */
+.gs-btn:before {
+    font-size: 9px;
+    transform: translateY(0px);
+    margin-right: 16px;
+}
+
+/* line 36, app/scss/_btn.scss */
+.gs-btn--disabled {
+    background: #434343;
+    pointer-events: none;
+}
+
+/* line 39, app/scss/_btn.scss */
+.gs-btn--disabled:after {
+    display: none;
+}
+
+/* line 45, app/scss/_btn.scss */
+.gs-btn-white {
+    font-family: 'Basis Grotesque', Arial, Helvetica, sans-serif;
+    font-weight: 500;
+    font-size: 14px;
+    line-height: 22px;
+    display: inline-flex;
+    justify-content: center;
+    align-items: center;
+    height: 38px;
+    padding: 0 24px;
+    min-width: 160px;
+    box-sizing: border-box;
+    position: relative;
+    color: #241d1d;
+    background: #fff;
+}
+
+/* line 219, app/scss/_mixins.scss */
+.gs-btn-white:focus-visible {
+    outline: 2px dashed #7399c6;
+    outline-offset: 4px;
+}
+
+@media all and (-ms-high-contrast: none), (-ms-high-contrast: active) {
+    /* line 224, app/scss/_mixins.scss */
+    .gs-btn-white:focus {
+        outline: 2px dashed #7399c6;
+        outline-offset: 4px;
+    }
+}
+
+a.gs-btn-white-hollow {
+    color: white;
+    background: none;
+}
+
+a.gs-btn-white-hollow:hover {
+    color: white;
+}
+
+    /* line 174, app/scss/_mixins.scss */
+.gs-btn-white:before {
+    font-size: 9px;
+    transform: translateY(0px);
+    margin-right: 16px;
+}
+
+/* line 51, app/scss/_btn.scss */
+.gs-btn-white:after {
+    border-color: #fff;
+    color: transparent;
+}
+
+/* line 54, app/scss/_btn.scss */
+.gs-btn-white--disabled {
+    color: #434343;
+    background: #f7f7f7;
+    pointer-events: none;
+}
+
+/* line 58, app/scss/_btn.scss */
+.gs-btn-white--disabled:after {
+    display: none;
+}
+
+/* line 64, app/scss/_btn.scss */
+.gs-btn-secondary, .gs-btn-secondary-white {
+    font-family: 'Basis Grotesque', Arial, Helvetica, sans-serif;
+    font-weight: 500;
+    font-size: 14px;
+    line-height: 22px;
+    display: inline-flex;
+    justify-content: center;
+    align-items: center;
+    height: 38px;
+    padding: 0 24px;
+    min-width: 160px;
+    box-sizing: border-box;
+    position: relative;
+    color: #241d1d;
+    overflow: visible;
+    text-decoration: none;
+}
+
+/* line 219, app/scss/_mixins.scss */
+.gs-btn-secondary:focus-visible, .gs-btn-secondary-white:focus-visible {
+    outline: 2px dashed #7399c6;
+    outline-offset: 4px;
+}
+
+@media all and (-ms-high-contrast: none), (-ms-high-contrast: active) {
+    /* line 224, app/scss/_mixins.scss */
+    .gs-btn-secondary:focus, .gs-btn-secondary-white:focus {
+        outline: 2px dashed #7399c6;
+        outline-offset: 4px;
+    }
+}
+
+/* line 174, app/scss/_mixins.scss */
+.gs-btn-secondary:before, .gs-btn-secondary-white:before {
+    font-size: 9px;
+    transform: translateY(0px);
+    margin-right: 16px;
+}
+
+/* line 69, app/scss/_btn.scss */
+.gs-btn-secondary:after, .gs-btn-secondary-white:after {
+    transition: all 0.3s ease-in-out;
+    content: "";
+    position: absolute;
+    width: calc(100% - 2px);
+    height: calc(100% - 2px);
+    background: transparent;
+    border: 1px solid #241d1d;
+    top: 0px;
+    left: 0px;
+    z-index: 0;
+}
+
+@media (min-width: 992px) {
+    /* line 75, app/scss/_btn.scss */
+    .gs-btn-secondary:hover:after, .gs-btn-secondary-white:hover:after, .gs-btn-secondary:focus-visible:after, .gs-btn-secondary-white:focus-visible:after {
+        width: calc(100% + 2px);
+        height: calc(100% + 2px);
+        top: -3px;
+        left: -3px;
+        border-width: 2px;
+    }
+}
+
+@media all and (-ms-high-contrast: none) and (min-width: 992px), (-ms-high-contrast: active) and (min-width: 992px) {
+    /* line 87, app/scss/_btn.scss */
+    .gs-btn-secondary:after, .gs-btn-secondary-white:after {
+        width: calc(100% + 2px);
+        height: calc(100% + 2px);
+        top: -3px;
+        left: -3px;
+        border-width: 2px;
+    }
+}
+
+/* line 102, app/scss/_btn.scss */
+.gs-btn-secondary-white {
+    color: #fff;
+}
+
+/* line 105, app/scss/_btn.scss */
+.gs-btn-secondary-white:after {
+    border-color: #fff;
+}
+
+/* line 3, app/scss/_types.scss */
+.gs-heading-display {
+    font-family: 'Basis Grotesque', Arial, Helvetica, sans-serif;
+    font-size: 68px;
+    line-height: 80px;
+    letter-spacing: 0;
+    color: #241d1d;
+}
+
+@media (min-width: 768px) {
+    /* line 3, app/scss/_types.scss */
+    .gs-heading-display {
+        font-size: 100px;
+        line-height: 120px;
+        letter-spacing: -2px;
+    }
+}
+
+/* line 6, app/scss/_types.scss */
+.gs-heading-1 {
+    font-family: 'Basis Grotesque', Arial, Helvetica, sans-serif;
+    font-size: 36px;
+    line-height: 44px;
+    color: #241d1d;
+}
+
+@media (min-width: 768px) {
+    /* line 6, app/scss/_types.scss */
+    .gs-heading-1 {
+        font-size: 48px;
+        line-height: 58px;
+    }
+}
+
+@media (min-width: 992px) {
+    /* line 6, app/scss/_types.scss */
+    .gs-heading-1 {
+        font-size: 68px;
+        line-height: 82px;
+    }
+}
+
+/* line 9, app/scss/_types.scss */
+.gs-heading-2 {
+    font-family: 'Basis Grotesque', Arial, Helvetica, sans-serif;
+    font-size: 30px;
+    line-height: 36px;
+    color: #241d1d;
+}
+
+@media (min-width: 768px) {
+    /* line 9, app/scss/_types.scss */
+    .gs-heading-2 {
+        font-size: 40px;
+        line-height: 48px;
+    }
+}
+
+@media (min-width: 992px) {
+    /* line 9, app/scss/_types.scss */
+    .gs-heading-2 {
+        font-size: 48px;
+        line-height: 58px;
+    }
+}
+
+/* line 12, app/scss/_types.scss */
+.gs-heading-3 {
+    font-family: 'Basis Grotesque', Arial, Helvetica, sans-serif;
+    font-size: 24px;
+    line-height: 30px;
+    color: #241d1d;
+}
+
+@media (min-width: 768px) {
+    /* line 12, app/scss/_types.scss */
+    .gs-heading-3 {
+        font-size: 36px;
+        line-height: 44px;
+    }
+}
+
+/* line 15, app/scss/_types.scss */
+.gs-heading-4 {
+    font-size: 24px;
+    line-height: 30px;
+    color: #241d1d;
+}
+
+@media (min-width: 768px) {
+    /* line 15, app/scss/_types.scss */
+    .gs-heading-4 {
+        font-size: 30px;
+        line-height: 36px;
+    }
+}
+
+/* line 18, app/scss/_types.scss */
+.gs-heading-5 {
+    font-family: 'Basis Grotesque', Arial, Helvetica, sans-serif;
+    font-size: 20px;
+    line-height: 24px;
+    color: #241d1d;
+}
+
+@media (min-width: 768px) {
+    /* line 18, app/scss/_types.scss */
+    .gs-heading-5 {
+        font-size: 24px;
+        line-height: 30px;
+    }
+}
+
+/* line 21, app/scss/_types.scss */
+.gs-heading-6 {
+    font-family: 'Basis Grotesque', Arial, Helvetica, sans-serif;
+    font-weight: 400;
+    font-size: 20px;
+    line-height: 24px;
+    color: #241d1d;
+}
+
+@media (min-width: 768px) {
+    /* line 21, app/scss/_types.scss */
+    .gs-heading-6 {
+        font-size: 20px;
+        line-height: 24px;
+    }
+}
+
+@media (min-width: 992px) {
+    /* line 21, app/scss/_types.scss */
+    .gs-heading-6 {
+        font-size: 24px;
+        line-height: 30px;
+    }
+}
+
+/* line 24, app/scss/_types.scss */
+.gs-heading-7 {
+    font-family: 'Basis Grotesque', Arial, Helvetica, sans-serif;
+    font-weight: 400;
+    font-size: 18px;
+    line-height: 23px;
+    color: #241d1d;
+}
+
+@media (min-width: 992px) {
+    /* line 24, app/scss/_types.scss */
+    .gs-heading-7 {
+        font-size: 18px;
+        line-height: 22px;
+    }
+}
+
+/* line 30, app/scss/_types.scss */
+.gs-body-1 {
+    font-family: 'Basis Grotesque', Arial, Helvetica, sans-serif;
+    font-weight: 300;
+    font-size: 18px;
+    line-height: 28px;
+    color: #434343;
+}
+
+/* line 33, app/scss/_types.scss */
+.gs-body-2 {
+    font-family: 'Basis Grotesque', Arial, Helvetica, sans-serif;
+    font-weight: 300;
+    font-size: 16px;
+    line-height: 24px;
+    color: #434343;
+}
+
+/* line 38, app/scss/_types.scss */
+.gs-descriptive {
+    font-family: 'Basis Grotesque', Arial, Helvetica, sans-serif;
+    font-weight: 300;
+    font-size: 14px;
+    line-height: 22px;
+    color: #434343;
+}
+
+/* line 42, app/scss/_types.scss */
+.gs-eyebrow {
+    font-family: 'Basis Grotesque', Arial, Helvetica, sans-serif;
+    font-weight: 400;
+    font-size: 12px;
+    line-height: 14px;
+    text-transform: uppercase;
+    color: #434343;
+}
+
+/* line 46, app/scss/_types.scss */
+.gs-cta {
+    font-family: 'Basis Grotesque', Arial, Helvetica, sans-serif;
+    font-weight: 500;
+    font-size: 14px;
+    line-height: 22px;
+    color: #3173b5;
+    cursor: pointer;
+}
+
+/* line 149, app/scss/_mixins.scss */
+.gs-cta:hover {
+    text-decoration: underline;
+}
+
+/* line 50, app/scss/_types.scss */
+.gs-paragraph {
+    font-family: 'Basis Grotesque', Arial, Helvetica, sans-serif;
+    font-weight: 400;
+    font-size: 14px;
+    line-height: 18px;
+    color: #434343;
+}
+
+/* line 3, app/scss/_header.scss */
+.gs-section-header {
+    padding: 56px 16px;
+}
+
+@media (min-width: 768px) {
+    /* line 3, app/scss/_header.scss */
+    .gs-section-header {
+        padding: 0px 0 128px;
+    }
+}
+
+@media (min-width: 992px) {
+    /* line 3, app/scss/_header.scss */
+    .gs-section-header {
+        padding: 0px 0 72px;
+    }
+}
+
+/* line 14, app/scss/_header.scss */
+.gs-section-header--center {
+    text-align: center;
+}
+
+.large-width .gs-section-header--center p {
+    max-width: 65%;
+}
+
+@media (max-width: 768px) {
+    .large-width .gs-section-header--center p {
+        max-width: 100%;
+    }
+}
+
+@media (min-width: 768px) {
+    /* line 17, app/scss/_header.scss */
+    .gs-section-header--center p {
+        max-width: 500px;
+        margin: 0 auto;
+    }
+}
+
+@media (min-width: 992px) {
+    /* line 17, app/scss/_header.scss */
+    .gs-section-header--center p {
+        max-width: 600px;
+    }
+}
+
+/* line 29, app/scss/_header.scss */
+.gs-section-header--grey {
+    background: #f7f7f7;
+}
+
+/* line 33, app/scss/_header.scss */
+.gs-section-header--top, .gs-section-header--mid {
+    font-family: 'Basis Grotesque', Arial, Helvetica, sans-serif
+    font-size: 24px;
+    line-height: 30px;
+    color: #241d1d;
+    font-size: 30px;
+    line-height: 36px;
+}
+
+@media (min-width: 768px) {
+    /* line 33, app/scss/_header.scss */
+    .gs-section-header--top, .gs-section-header--mid {
+        font-size: 36px;
+        line-height: 44px;
+    }
+}
+
+/* line 39, app/scss/_header.scss */
+.gs-section-header--top {
+    padding: 56px 0;
+}
+
+@media (min-width: 768px) {
+    /* line 39, app/scss/_header.scss */
+    .gs-section-header--top {
+        padding: 58px 0 55px;
+    }
+}
+
+@media (min-width: 992px) {
+    /* line 39, app/scss/_header.scss */
+    .gs-section-header--top {
+        padding: 67px 0 56px;
+    }
+}
+
+/* line 49, app/scss/_header.scss */
+.gs-section-header--mid {
+    padding: 56px 0 66px;
+}
+
+@media (min-width: 768px) {
+    /* line 49, app/scss/_header.scss */
+    .gs-section-header--mid {
+        padding: 72px 0 56px;
+    }
+}
+
+@media (min-width: 992px) {
+    /* line 49, app/scss/_header.scss */
+    .gs-section-header--mid {
+        padding: 96px 0 56px;
+    }
+}
+
+/* line 59, app/scss/_header.scss */
+.gs-section-header h2 {
+    font-family: "Basis Grotesque", Arial, Helvetica, sans-serif;
+    font-size: 30px;
+    line-height: 36px;
+    color: #241d1d;
+}
+.basis-grotesque .gs-component .gs-section-header h2 {
+    font-family: "Basis Grotesque", Arial, Helvetica, sans-serif;
+    font-size: 32px;
+    line-height: 48px;
+    letter-spacing: -1px;
+}
+.investor-relations .gs-section-header h2 {
+    font-family: "Basis Grotesque", Arial, Helvetica, sans-serif;
+    font-size: 32px;
+    line-height: 48px;
+    letter-spacing: -1px;
+}
+
+@media (min-width: 480px){
+    .basis-grotesque .gs-component .gs-section-header h2 {
+        font-size: 48px;
+        line-height: 52px;
+        letter-spacing: -1px;
+    }
+    .investor-relations .gs-component .gs-section-header h2 {
+        font-size: 48px;
+        line-height: 52px;
+        letter-spacing: -1px;
+    }
+}
+
+@media (min-width: 768px) {
+    /* line 59, app/scss/_header.scss */
+    .gs-section-header h2 {
+        font-size: 40px;
+        line-height: 48px;
+    }
+}
+
+@media (min-width: 992px) {
+    /* line 59, app/scss/_header.scss */
+    .gs-section-header h2 {
+        font-size: 48px;
+        line-height: 58px;
+    }
+}
+
+/* line 63, app/scss/_header.scss */
+.gs-section-header h4 {
+    font-size: 24px;
+    line-height: 30px;
+    color: #241d1d;
+}
+
+@media (min-width: 768px) {
+    /* line 63, app/scss/_header.scss */
+    .gs-section-header h4 {
+        font-size: 30px;
+        line-height: 36px;
+    }
+}
+
+/* line 67, app/scss/_header.scss */
+.gs-section-header h6 {
+    font-family: 'Basis Grotesque', Arial, Helvetica, sans-serif;
+    font-weight: 400;
+    font-size: 20px;
+    line-height: 24px;
+    color: #241d1d;
+}
+
+@media (min-width: 768px) {
+    /* line 67, app/scss/_header.scss */
+    .gs-section-header h6 {
+        font-size: 20px;
+        line-height: 24px;
+    }
+}
+
+@media (min-width: 992px) {
+    /* line 67, app/scss/_header.scss */
+    .gs-section-header h6 {
+        font-size: 24px;
+        line-height: 30px;
+    }
+}
+
+/* line 71, app/scss/_header.scss */
+.gs-section-header p {
+    font-family: 'Basis Grotesque', Arial, Helvetica, sans-serif;
+    font-weight: 300;
+    font-size: 16px;
+    line-height: 24px;
+    color: #434343;
+    padding-top: 16px;
+}
+
+@media (min-width: 765px){
+    .gs-component__image {
+        margin: 0px;
+        padding-top: 96px;
+        padding-bottom: 88px;
+    }
+}
+
+.basis-grotesque .gs-component .gs-section-header p {
+    font-family: "Basis Grotesque", Arial, Helvetica, sans-serif;
+    font-size: 16px;
+    line-height: 24px;
+}
+
+.basis-grotesque.large-width .gs-component .gs-section-header p {
+    font-family: "Basis Grotesque", Arial, Helvetica, sans-serif;
+    font-size: 16px;
+    line-height: 24px;
+    letter-spacing: 0px;
+}
+
+.basis-grotesque .gs-component .gs-section-header .gs-section-header__btn a {
+    font-family: "Basis Grotesque", Arial, Helvetica, sans-serif;
+    font-size: 16px;
+    line-height: 24px;
+    letter-spacing: 0px;
+    color: black;
+    text-decoration: none;
+    font-weight: 600;
+}
+
+.basis-grotesque.container.homepage {
+    background-color: #192E47;
+    margin: 0;
+    width: 100%;
+}
+
+.white-text.basis-grotesque .gs-component .gs-section-header .gs-section-header__btn a {
+    color: white;
+}
+
+@media (min-width: 768px) {
+    .basis-grotesque.large-width .gs-component .gs-section-header p {
+        font-size: 30px;
+        line-height: 45px;
+    }
+}
+
+.basis-grotesque .gs-component .gs-section-header .gs-section-header__btn a:hover {
+    text-decoration: underline !important;
+    color: black !important;
+}
+
+.white-text.basis-grotesque .gs-component .gs-section-header .gs-section-header__btn a:hover {
+    color: white !important;
+}
+
+@media (min-width: 480px){
+    .basis-grotesque .gs-component .gs-section-header p {
+        font-size: 20px;
+        line-height: 30px;
+        letter-spacing: 0px;
+    }
+    .basis-grotesque .gs-component .gs-section-header .gs-section-header__btn a {
+        font-size: 18px;
+        line-height: 27px;
+        letter-spacing: 0px;
+        color: black;
+        text-decoration: none;
+        font-weight: 600;
+    }
+}
+
+@media (max-width: 480px){
+    .white-text.basis-grotesque .gs-component .gs-section-header .gs-section-header__btn a {
+        color: white;
+    }
+}
+
+/* line 76, app/scss/_header.scss */
+.gs-section-header__btn {
+    padding-top: 16px;
+}
+
+@media (min-width: 992px) {
+    /* line 76, app/scss/_header.scss */
+    .gs-section-header__btn {
+        padding-top: 24px;
+    }
+}
+
+/* line 83, app/scss/_header.scss */
+.gs-section-header__btn a {
+    font-family: 'Basis Grotesque', Arial, Helvetica, sans-serif;
+    font-weight: 500;
+    font-size: 14px;
+    line-height: 22px;
+    color: #3173b5;
+    cursor: pointer;
+    font-weight: bold;
+}
+
+/* line 149, app/scss/_mixins.scss */
+.gs-section-header__btn a:hover {
+    text-decoration: underline;
+}
+
+/* line 87, app/scss/_header.scss */
+.gs-section-header__btn-2-col {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+@media (min-width: 992px) {
+    /* line 87, app/scss/_header.scss */
+    .gs-section-header__btn-2-col {
+        display: block;
+    }
+}
+
+/* line 98, app/scss/_header.scss */
+.gs-section-header__btn-2-col a {
+    line-height: 1.6;
+    margin-bottom: 8px;
+}
+
+@media (min-width: 992px) {
+    /* line 98, app/scss/_header.scss */
+    .gs-section-header__btn-2-col a {
+        line-height: 1;
+    }
+    /* line 103, app/scss/_header.scss */
+    .gs-section-header__btn-2-col a:last-child {
+        border-left: 1px solid #e1e1e1;
+        margin-left: 12px;
+        padding-left: 12px;
+    }
+}
+
+/* line 1, app/scss/_divider.scss */
+.gs-divider-1, .gs-divider-2, .gs-divider-3, .gs-divider-4, .gs-divider-5, .gs-divider-6, .gs-divider-7, .gs-divider-8 {
+    display: block;
+    width: 100%;
+    height: 1px;
+    background-color: #c4c4c4;
+}
+
+/* line 8, app/scss/_divider.scss */
+.gs-divider-1 {
+    max-width: 1120px;
+}
+
+/* line 12, app/scss/_divider.scss */
+.gs-divider-2 {
+    max-width: 832px;
+}
+
+/* line 16, app/scss/_divider.scss */
+.gs-divider-3 {
+    max-width: 736px;
+}
+
+/* line 20, app/scss/_divider.scss */
+.gs-divider-4 {
+    max-width: 680px;
+}
+
+/* line 24, app/scss/_divider.scss */
+.gs-divider-5 {
+    max-width: 544px;
+}
+
+/* line 28, app/scss/_divider.scss */
+.gs-divider-6 {
+    max-width: 504px;
+}
+
+/* line 32, app/scss/_divider.scss */
+.gs-divider-7 {
+    max-width: 340px;
+}
+
+/* line 36, app/scss/_divider.scss */
+.gs-divider-8 {
+    max-width: 328px;
+}
+
+/* line 13, app/scss/global.scss */
+.gs-bg-grey {
+    background: #f7f7f7;
+}
+
+.gs-btn, .gs-btn-white, .gs-btn-white-hollow {
+}
+a.gs-btn-white-hollow:hover,
+.gs-btn:hover:after, .gs-btn-white:hover {
+    color: black !important;
+}
+
+.gs-btn:hover:after, .gs-btn-white:hover:after {
+    border: 1px solid white;
+    color: black;
+    top: initial;
+    left: initial;
+}
+
+/* */
+a.gs-header-primary__headline__box__btn__link.gs-btn.gs-btn-white.gs-btn-white-hollow:after
+.gs-btn.no-expand:after{
+    content: none;
+}
+
+a.gs-header-primary__headline__box__btn__link.gs-btn.gs-btn-white.gs-btn-white-hollow {
+    border: 1px solid white;
+    text-decoration: none;
+    transition: background-color .3s;
+    transition-property: background-color;
+    transition-duration: 0.3s;
+    transition-timing-function: ease;
+    transition-delay: 0s;
+}
+
+a.gs-header-primary__headline__box__btn__link.gs-btn.gs-btn-white.gs-btn-white-hollow:hover {
+    color: black;
+    background: white;
+}
+
+.gs-btn.no-expand,
+.gs-btn-secondary.no-expand {
+    transition: background-color .3s;
+    transition-property: background-color;
+    transition-duration: 0.3s;
+    transition-timing-function: ease;
+    transition-delay: 0s;
+    text-decoration: none;
+}
+
+a.gs-btn-secondary.no-expand {
+    border: 1px solid black;
+}
+
+.gs-btn.no-expand:after,
+.gs-btn-secondary.no-expand:after {
+    content: none;
+}
+.gs-btn.no-expand:hover {
+    color: rgb(255, 255, 255);
+    background-color: #7399c6;
+}
+a.gs-btn-secondary.no-expand:hover{
+    background: #241d1d;
+    color: white;
+}
+@media (min-width: 992px) {
+    .investor-relations .gs-component {
+        margin-bottom: 169px;
+    }
+}
+.investor-relations .gs-section-header {
+    font-family: "Basis Grotesque", Arial, Helvetica, sans-serif;
+}
+.basis-grotesque .gs-section-header h2 {
+    font-family: "Basis Grotesque", Arial, Helvetica, sans-serif;
+    font-size: 32px;
+    line-height: 48px;
+    letter-spacing: -1px;
+}

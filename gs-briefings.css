@@ -1,0 +1,90 @@
+.briefings .briefings-error-text,
+.briefings .briefings-invalid-text {
+    color: #D93016 !important;
+}
+
+.briefings-error-text {
+    aria-live: polite;
+}
+
+.briefings-error-text.hidden {
+    aria-hidden: true;
+}
+
+.briefings .briefings__sign-up input {
+    padding: .625rem 1.25rem;
+    font-family: 'Basis Grotesque', Arial, Helvetica, sans-serif;
+    line-height: 1.3125rem;
+    color: #434343;
+    font-size: .875rem;
+    width: 100%;
+    max-width: 20.9375rem;
+    display: inline-block;
+    height: 2.1875rem;
+    border: solid 1px #E1E1E1;
+    border-radius: 0;
+    -webkit-appearance: none;
+    -moz-appearance: none;
+    appearance: none;
+    vertical-align: middle;
+}
+.basis-grotesque .briefings .briefings__sign-up input {
+    font-family: 'Basis Grotesque', Arial, Helvetica, sans-serif;
+}
+@media all and (min-width: 768px) {
+    .briefings .briefings__sign-up input {
+        font-size: 1rem;
+        line-height: 1.625rem;
+        margin-top: .9375rem;
+        height: 2.5rem;
+        width: 65%;
+    }
+}
+.briefings .briefings__sign-up input.no-margin {
+    margin-top: 0;
+}
+.briefings .briefings__sign-up input.no-border {
+    border: none;
+    vertical-align: inherit;
+}
+.briefings .briefings__sign-up input::-webkit-input-placeholder {
+    font-size: .875rem;
+}
+.briefings .briefings__sign-up input:-moz-placeholder {
+    font-size: .875rem;
+}
+.briefings .briefings__sign-up input::-moz-placeholder {
+    font-size: .875rem;
+}
+.briefings .briefings__sign-up input:-ms-input-placeholder {
+    font-size: .875rem;
+}
+.briefings .briefings-yes-text,
+.briefings .briefings-error-text,
+.briefings .briefings-invalid-text {
+    font-family: 'Univers LT W01 55 Roman';
+    color: #434343;
+    font-size: .875rem;
+    line-height: 1.5rem;
+}
+@media all and (min-width: 768px) {
+    .briefings .briefings-yes-text,
+    .briefings .briefings-error-text,
+    .briefings .briefings-invalid-text {
+        font-size: 1.125rem;
+        line-height: 1.75rem;
+        margin-top: 0;
+    }
+}
+.briefings .briefings-yes-text.no-margin,
+.briefings .briefings-error-text.no-margin,
+.briefings .briefings-invalid-text.no-margin {
+    margin-bottom: 0 !important;
+}
+.briefings .action-loader {
+    text-align: center;
+}
+.briefings .action-loader img {
+    height: 50px;
+    margin-bottom: 28px;
+}
