@@ -132,7 +132,7 @@ h1, h2, h3, h4, h5, h6 {
     position: absolute;
     width: 40px;
     height: 2px;
-    background: #22a2ff; }
+    background: #1387da; }
   .site-section-heading.text-center:before {
     content: "";
     left: 50%;
@@ -912,7 +912,7 @@ padding: 0px;
 }
 
 .navbtn-primary {
-  color: #FFFFFF;
+  color: #fefefe;
 }
 
 .navbtn-square {
@@ -986,7 +986,7 @@ padding: 0px;
 }
 
 .navhero-header {
-  background: url(../img/1400x530.jpg) top right no-repeat;
+  background: url(../images/harvard\ logojpg.jpg) top right no-repeat;
   background-size: cover;
 }
 
@@ -1019,9 +1019,9 @@ padding: 0px;
 }
 
 .hero-header {
-  background: url(../images/1400x530.jpg) top right no-repeat;
+  background: url(../images/HBS-styleguide-shield-and-logo-color-variations-3.jpg) top right no-repeat;
   background-size: cover;
-  height: 500px;
+  height: 600px;
 }
 
 .display-1{
