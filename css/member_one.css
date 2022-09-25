@@ -1,0 +1,69 @@
+.member-hero{
+    display: flex;
+    justify-content: center;
+}
+
+.member{
+    padding: 20px;
+}
+
+.name, .position{
+    display: flex;
+    justify-content: center;
+}
+
+.position{
+    border-bottom: 2px solid #22a2ff;
+}
+
+.details{
+    display: flex;
+    justify-content: space-between;
+}
+
+.details div{
+    width: 30%;
+    margin: 20px;
+}
+
+.brief-desc{
+    display: flex;
+    justify-content: center;
+}
+
+.brief-desc div{
+    width: 50vw;
+    padding: 20px 0;
+}
+
+.brief-desc strong, .brief-desc p{
+    color: black;
+}
+
+@media (max-width: 1000px) {
+    h3{
+        font-size: 20px;
+    }
+    .member-hero{
+        flex-direction: column;
+    }
+    .member-img{
+        display: flex;
+        justify-content: center;
+    }
+    .details div{
+        width: 30% 30% 30%;
+        margin: 0;
+    }
+    .brief-desc div{
+        width: unset;
+        padding: 20px 10px;
+    }
+    
+}
+
+@media (max-width: 600px) {
+    .member{
+        padding: 10px;
+    }
+}
