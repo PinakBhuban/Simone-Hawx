@@ -1,0 +1,54 @@
+ul{
+    padding: 0;
+}
+
+.site-footer{
+    padding-top: 0;
+}
+
+.footer-section{
+    background-color: #1e2828;
+}
+
+.row {
+    display: flex;
+}
+
+.row-child{
+    padding: 40px;
+}
+
+.left-title h4, .right-title h4{
+    color: white;
+}
+
+.img-responsive{
+    width: 100%;
+}
+
+.card-img{
+    height: 400px;
+}
+
+.card{
+    margin-bottom: 30px;
+}
+
+.new-hero-image{
+    width: 100vw;
+}
+
+.new-hero-image img{
+    width: 100%;
+}
+
+.hero-buttons{
+    position: relative;
+    top: -50px;
+}
+
+@media (max-width:600px){
+    .location-section{
+        margin: 20px 10px;
+    }
+}
