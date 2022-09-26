@@ -480,11 +480,11 @@ h1, h2, h3, h4, h5, h6 {
 
 .sticky-wrapper {
   z-index: 100;
-  width: 100%; }
+  width: auto; }
   .sticky-wrapper + .site-blocks-cover {
     margin-top: 140px; }
   .sticky-wrapper .site-navbar {
-    background-color: rgba(103, 12, 36, 0.866);
+    background-color: rgba(41, 88, 71, 0.479);
     -webkit-transition: .3s all ease;
     -o-transition: .3s all ease;
     transition: .3s all ease; }
@@ -510,8 +510,8 @@ h1, h2, h3, h4, h5, h6 {
         .sticky-wrapper.is-sticky .site-navbar .site-navigation .site-menu > li > a.active {
           color: #fff; }
   .sticky-wrapper .shrink {
-    padding-top: 0px !important;
-    padding-bottom: 0px !important; }
+    padding-top: auto !important;
+    padding-bottom: auto !important; }
 
 /* Blocks */
 .site-blocks-cover {
@@ -1019,9 +1019,9 @@ padding: 0px;
 }
 
 .hero-header {
-  background: url(../images/Your\ paragraph\ text.png) top right no-repeat;
+  background: url(../images/I\ can\'t\ say\ I\ do\ without\ you!\ \(1\).png) center  no-repeat;
   background-size: cover;
-  height: 650px;
+  height: 750px;
 }
 
 .display-1{
