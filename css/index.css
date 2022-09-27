@@ -1,0 +1,132 @@
+ul{
+    padding: 0;
+}
+
+.site-footer{
+    padding-top: 0;
+}
+
+.footer-section{
+    background-color: #1e2828;
+}
+
+.row {
+    display: flex;
+}
+
+.row-child{
+    padding: 40px;
+}
+
+.left-title h4, .right-title h4{
+    color: white;
+}
+
+.img-responsive{
+    width: 100%;
+}
+
+.card-img{
+    height: 400px;
+}
+
+.card{
+    margin-bottom: 30px;
+}
+.hero-buttons{
+    position: relative;
+    top: -50px;
+}
+
+.new-hero-header{
+    display:flex;
+    justify-content: center;
+    background-color: rgb(84, 24, 24);
+    margin-bottom: 40px;
+}
+
+.logos{
+    display: flex;
+    justify-content: center;
+}
+
+.hawx-logo, .hbs-logo{
+    display: flex;
+    align-items: center;
+    width: 200px;
+    margin: 20px 50px;
+    padding: 20px;
+}
+
+.logo-separator{
+    display: flex;
+    align-items: center;
+}
+
+.hawx-logo img, .hbs-logo img{
+    width: 100%;
+}
+
+.title-text h1, .logo-separator h1{
+    font-size: 60px;
+    text-align: center;
+    font-family: 'Times New Roman', Times, serif;
+    font-weight: 600;
+    color: rgb(206, 206, 206)
+}
+
+.title-text{
+    padding: 0 60px;
+}
+
+.special{
+    color: rgba(192, 33, 33, 0.849);
+}
+
+.new-header-title, .new-header-subtitle, .new-header-btns{
+    display: flex;
+    justify-content: center;
+}
+
+.new-header-subtitle p{
+    margin: 0;
+    font-size: 20px;
+    color: rgb(206, 206, 206);
+    padding: 20px;
+    width: 100vw;
+    text-align: center;
+}
+
+.left-btn button, .right-btn button{
+    padding: 5px 20px;
+    margin: 30px;
+    background-color: black;
+    color: rgb(206, 206, 206);
+    border: none;
+    box-shadow: none;
+    transition: .3s;
+}
+
+.left-btn button:hover, .right-btn button:hover{
+    box-shadow: 2px 2px 8px white;
+}
+
+@media (max-width:900px){
+    .title-text h1{
+    font-size: 50px;
+    }
+}
+
+
+@media (max-width:600px){
+    .location-section{
+        margin: 20px 10px;
+    }
+    .title-text h1{
+        font-size: 30px;
+    }
+    .hawx-logo, .hbs-logo{
+        width: 150px;
+        margin: 20px;
+    }
+}
