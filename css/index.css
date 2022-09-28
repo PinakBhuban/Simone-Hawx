@@ -41,7 +41,7 @@ ul{
 .new-hero-header{
     display:flex;
     justify-content: center;
-    background-color: rgb(84, 24, 24);
+    background-color: rgb(112, 35, 35);
     margin-bottom: 40px;
 }
 
@@ -80,7 +80,7 @@ ul{
 }
 
 .special{
-    color: rgba(192, 33, 33, 0.849);
+    color: rgb(255, 255, 255);
 }
 
 .new-header-title, .new-header-subtitle, .new-header-btns{
@@ -100,15 +100,15 @@ ul{
 .left-btn button, .right-btn button{
     padding: 5px 20px;
     margin: 30px;
-    background-color: black;
-    color: rgb(206, 206, 206);
-    border: none;
-    box-shadow: none;
+    background-color: rgb(0, 0, 0);
+    color: rgb(255, 255, 255);
+    border-radius: 100%;
+  
     transition: .3s;
 }
 
 .left-btn button:hover, .right-btn button:hover{
-    box-shadow: 2px 2px 8px white;
+    box-shadow: 2px 2px 8px rgb(255, 255, 255);
 }
 
 @media (max-width:900px){
