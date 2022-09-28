@@ -1,0 +1,136 @@
+.students-hero{
+    background: url("../images/sq_img_1.jpg");
+    background-size: cover;
+    height: 500px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.stds-hero-title h1{
+    font-size: 70px;
+    font-weight: 700;
+    color: aliceblue;
+    text-shadow: 4px 4px 2px #888888;
+    text-align: center;
+}
+
+.sub-hero{
+    background-color: rgba(41, 88, 71, 0.479);
+    display: flex;
+    justify-content: center;
+}
+
+.sub-hero-wrap{
+    padding: 10px 30px;
+}
+
+.sub-hero-text h1{
+    color: rgb(227, 227, 227);
+}
+
+.mid-section{
+    margin: 40px;
+    display: flex;
+    justify-content: center;
+}
+
+.mid-section-title h1{
+    padding: 20px 0;
+    font-size: 40px;
+    text-align: center;
+}
+
+.mid-section-subtitle{
+    color: black;
+    font-size: 20px;
+    text-align: center;
+}
+
+.work-cards{
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
+}
+
+.work-card-wrap{
+    width: 30%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding: 30px;
+}
+
+.work-card-title{
+    padding: 10px 0;
+}
+
+.work-card-desc{
+    text-align: center;
+}
+
+.card{
+    margin-bottom: 30px;
+}
+
+.card-img{
+    height: 400px;
+}
+
+.work-descs{
+    display: flex;
+    justify-content: center;
+}
+
+.work-descs-wrap{
+    display: flex;
+}
+
+.work-desc-img, .desc{
+    margin: 30px;
+    width: 30vw;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+.work-desc-img img{
+    width: 100%;
+}
+
+.desc h2{
+    text-align: center;
+}
+
+@media (max-width: 1000px){
+    .work-card-wrap{
+        padding: 20px;
+        width: 33%;
+    }
+    .work-desc-img, .desc{
+        margin: 30px;
+        width: 40vw;
+    }
+}
+
+@media (max-width: 700px){
+    .work-cards{
+        flex-direction: column;
+        align-items: center;
+    }
+
+    .work-card-wrap{
+        padding: 0 20px;
+        width: 70vw;
+    }
+
+    .work-descs-wrap{
+        flex-direction: column;
+    }
+
+    .work-desc-img, .desc{
+        margin: 20px;
+        width: 70vw;
+    }
+}
