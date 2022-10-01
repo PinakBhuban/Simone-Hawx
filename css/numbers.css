@@ -1,0 +1,158 @@
+.numbers-header{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background: url("../images/glint_about_1.jpg");
+    background-size: cover;
+    height: 90vh;
+}
+
+.numbers-title h1, .numbers-subtitle h3{
+    text-align: center;
+    margin: 20px 0;
+    padding: 10px;
+}
+
+.numbers-apply{
+    display: flex;
+    justify-content: center;
+}
+
+.numbers-apply button{
+    margin: 50px 0;
+    font-size: 20px;
+    padding: 10px 60px;
+    border-radius: 10px;
+    background-color: black;
+    color: white;
+    font-weight: 700;
+}
+
+.jump-down-icon{
+    display: flex;
+    justify-content: center;
+    align-items: flex-end;
+    margin-top: 50px;
+}
+
+.jump-down-icon img{
+    height: 40px;
+}
+
+.stats-section, .numbers-section{
+    padding: 40px 0;
+    display: flex;
+    justify-content: center;
+}
+
+.stats-section-wrapper{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.stats-section-title, .numbers-section-title{
+    padding: 40px 0;
+}
+
+.stats-section-title h1, .numbers-section-title h1{
+    text-align: center;
+    font-size: 70px; 
+    padding: 10px;
+}
+
+.stats-image{
+    width: 70vw;
+    display: flex;
+    justify-content: center;
+    padding: 40px 0;
+}
+
+.stats-image img{
+    width: 100%;
+}
+
+.numbers-section{
+    background-color: black;
+}
+
+.numbers-section-title h1{
+    color: white;
+}
+
+.numbers{
+    display: flex;
+    flex-wrap: wrap;
+}
+
+.numbers-heading{
+    padding: 20px;
+}
+
+.numbers-heading h3{
+    color: white;
+    font-size: 20px;
+    text-decoration: underline;
+    padding: 0px 20px;
+    font-weight: normal;
+}
+
+
+.avg-high-numbers label{
+    font-size: 40px;
+    padding: 0px 20px;
+    font-weight: bold;
+}
+
+.extra-wrapper{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    padding: 50px;
+}
+
+.extra-right, .extra-left{
+    width: 50%;
+    padding: 20px;
+}
+
+.extra-right h3, .extra-left h3{
+    padding: 20px 0;
+}
+
+@media (max-width:950px){
+    .stats-image{
+        width: 80vw;
+    }
+
+    .stats-section-title h1, .numbers-section-title h1{
+        font-size: 50px; 
+    }
+
+    .extra-right, .extra-left{
+        width: 50%;
+        padding: 10px;
+    }
+}
+
+@media (max-width: 800px) {
+    .numbers{
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+    }
+
+    .extra-wrapper{
+        padding: 50px 30px;
+    }
+}
+
+@media (max-width: 500px) {
+    .stats-image{
+        width: 90vw;
+    }
+    .extra-right h3, .extra-left h3{
+        font-size: 20px;
+        font-weight: bold;
+    }
+}
