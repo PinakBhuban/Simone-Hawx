@@ -138,8 +138,9 @@ h1{
 .quote-hero-div{
     display: flex;
     flex-direction: column;
-    justify-content: center;
-    width: 40vw;
+    justify-content: right;
+    align-items: right;
+    width: 80vw;
 }
 
 .quote-hero-quote{
