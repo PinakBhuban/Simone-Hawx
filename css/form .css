@@ -1,0 +1,24 @@
+.form-header{
+  display: flex;
+  justify-content: center;
+}
+
+.form-header-wrapper{
+  padding: 20px;
+}
+
+.form-header-wrapper h1{
+  text-align: center;
+}
+
+iframe{
+  border: none;
+  height: 150vh;
+  width: 100%;
+}
+
+@media (max-width: 920px) {
+  iframe{
+    height: 200vh;
+  }
+}
