@@ -2,7 +2,7 @@
     display: flex;
     justify-content: center;
     align-items: center;
-    background: url("../images/glint_about_1.jpg");
+    background: url("../images/ezgif.com-gif-maker.gif");
     background-size: cover;
     height: 90vh;
 }
@@ -79,7 +79,7 @@
 }
 
 .numbers-section{
-    background-color: black;
+    background-color: rgb(0, 0, 0);
 }
 
 .numbers-section-title h1{
