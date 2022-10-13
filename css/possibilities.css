@@ -1,0 +1,125 @@
+.possibilities-hero{
+    background: url("../images/pros.gif");
+    background-size: cover;
+	display: flex;
+	flex-direction: column;
+	align-items: center;
+}
+
+.possibilities-wrapper{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    height: 90vh;
+}
+
+
+.jump-down-icon{
+    display: flex;
+    justify-content: center;
+    align-items: flex-end;
+    margin-top: 50px;
+}
+
+.jump-down-icon img{
+    height: 40px;
+}
+
+.possibilities-hero h1{
+	font-weight: 300;
+    padding: 10px;
+    color: white;
+    font-size: 50px;
+    text-align: center;
+}
+
+.possibilities-subtitle h3{
+    color: white;
+}
+
+.possibilities-cards{
+	margin: 50px 150px;
+}
+
+
+.card{
+    margin: 20px 0;
+    border-radius: 0;
+    transition: 0.5s;
+}
+
+.card:hover{
+    box-shadow: 2px 2px 10px #888888;
+}
+
+a:hover{
+    color: unset;
+}
+
+.card-block{
+    padding: 10px;
+}
+
+.vision-section{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding: 40px 0;
+}
+
+.vision-wrap{
+    width: 60vw;
+}
+
+.vision-description{
+    width: 60vw;
+}
+
+.report-doc-section{
+    display: flex;
+    justify-content: center;
+    padding: 50px 0;
+}
+
+.values-section{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding: 40px 0;
+}
+
+.values-img{
+    width: 70vw;
+}
+
+.values-img img{
+    width: 100%;
+}
+
+
+ 
+ @media (max-width: 1000px){
+	.possibilities-cards{
+        margin: 30px 10px;
+    }
+}
+
+@media (max-width: 1000px){
+    .values-img{
+        width: 90vw;
+    }
+    .vision-wrap{
+        width: 80vw;
+        text-align: justify;
+    }
+
+    h1{
+        font-size: 20px;
+    }
+    
+}
+
+html{
+    scroll-behavior: smooth;
+}
