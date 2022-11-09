@@ -14,11 +14,11 @@
 }
 
 .user-type-selection__user h2:focus{
-    outline: 2px solid #FFEA00 !important;
+    outline: 2px solid #e4e4e4 !important;
 }
 
 .user-type-selection__user a:focus{
-    outline: 2px solid #FFEA00 !important;
+    outline: 2px solid #b1b1b1 !important;
 }
 @media all and (min-width: 768px) {
     .user-type-selection h2 {
@@ -36,7 +36,7 @@
 .user-type-selection p {
     font-family: 'Univers LT W01 55 Roman';
     line-height: 1.3125rem;
-    color: #434343;
+    color: #7a3333;
     font-size: .875rem;
     margin-bottom: 3.125rem;
     color: #FFFFFF;
@@ -64,7 +64,7 @@
 }
 
 .user-type-selection .user-type-selection__container {
-    background: #242041;
+    background: #1e00ff;
     display: -webkit-box;
     display: -webkit-flex;
     display: -ms-flexbox;
@@ -112,7 +112,7 @@
     -ms-flex: 0 0 100%;
     flex: 0 0 100%;
     padding: 1.875rem;
-    background: #0C072B;
+    background: #000000;
     position: relative;
     -webkit-transition: background-color .5s, padding .5s;
     transition: background-color .5s, padding .5s;
@@ -143,7 +143,7 @@
     top: 50%;
     -webkit-transform: translateY(-50%);
     transform: translateY(-50%);
-    background: black;
+    background: rgb(1, 1, 1);
     position: absolute;
     z-index: -1;
     -webkit-transition: height .5s, width .5s, background-color .5s;
@@ -151,7 +151,7 @@
     display: none;
 }
 .user-type-selection .user-type-selection__user:hover, .user-type-selection .user-type-selection__user:focus {
-    background-color: #151945;
+    background-color: #a31212;
 }
 
 .keyboard-nav .user-type-selection .user-type-selection__user:focus {
@@ -162,13 +162,13 @@
 .user-type-selection .user-type-selection__user:hover:after, .user-type-selection .user-type-selection__user:focus-within:after {
     width: calc(100% + 25px);
     height: calc(100% + 100px);
-    background: grey;
+    background: rgb(181, 33, 33);
 }
 
 .user-type-selection__user:focus:after {
     outline-width: 1px !important;
     outline-style: solid !important;
-    outline-color: #0081C3 !important;
+    outline-color: #0700c3 !important;
 }
 
 .no-hover .user-type-selection .user-type-selection__user:hover:after, .no-hover .user-type-selection .user-type-selection__user:focus:after  {
@@ -243,7 +243,7 @@
     margin: 15px auto 0 auto;
     padding: 15px 30px;
     width: 81%;
-    background: grey;
+    background: rgb(50, 43, 43);
     border: solid 1px grey;
     color: #FFFFFF;
     padding-left: .9375rem !important;
@@ -275,16 +275,16 @@
 .user-type-selection .user-type-selection__links {
     display: block;
     margin-top: 3.125rem;
-    color: #22A2FF;
+    color: #818486;
 }
 .user-type-selection .user-type-selection__links a {
     font-family: 'Univers LT W01 55 Roman';
     line-height: 1.3125rem;
-    color: #434343;
+    color: #555555;
     font-size: .875rem;
     text-decoration: none;
     display: inline-block;
-    color: #22A2FF;
+    color: #24a4ff;
     font-size: .75rem;
 }
 .basis-grotesque .user-type-selection .user-type-selection__links a {
