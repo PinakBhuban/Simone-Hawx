@@ -36,10 +36,10 @@
 .user-type-selection p {
     font-family: 'Univers LT W01 55 Roman';
     line-height: 1.3125rem;
-    color: #7a3333;
+    color: #831f1f;
     font-size: .875rem;
     margin-bottom: 3.125rem;
-    color: #FFFFFF;
+    color: #ffffff;
     overflow: hidden;
     -webkit-transition: max-height .5s, margin .5s;
     transition: max-height .5s, margin .5s;
@@ -64,7 +64,7 @@
 }
 
 .user-type-selection .user-type-selection__container {
-    background: #1e00ff;
+    background: #860f0f;
     display: -webkit-box;
     display: -webkit-flex;
     display: -ms-flexbox;
@@ -112,7 +112,7 @@
     -ms-flex: 0 0 100%;
     flex: 0 0 100%;
     padding: 1.875rem;
-    background: #454343;
+    background: #19849f;
     position: relative;
     -webkit-transition: background-color .5s, padding .5s;
     transition: background-color .5s, padding .5s;
@@ -143,7 +143,7 @@
     top: 50%;
     -webkit-transform: translateY(-50%);
     transform: translateY(-50%);
-    background: rgb(64, 63, 63);
+    background: rgb(16, 156, 180);
     position: absolute;
     z-index: -1;
     -webkit-transition: height .5s, width .5s, background-color .5s;
@@ -151,7 +151,7 @@
     display: none;
 }
 .user-type-selection .user-type-selection__user:hover, .user-type-selection .user-type-selection__user:focus {
-    background-color: #a31212;
+    background-color: #8b2c2c;
 }
 
 .keyboard-nav .user-type-selection .user-type-selection__user:focus {
@@ -162,13 +162,13 @@
 .user-type-selection .user-type-selection__user:hover:after, .user-type-selection .user-type-selection__user:focus-within:after {
     width: calc(100% + 25px);
     height: calc(100% + 100px);
-    background: rgb(181, 33, 33);
+    background: rgb(145, 28, 28);
 }
 
 .user-type-selection__user:focus:after {
     outline-width: 1px !important;
     outline-style: solid !important;
-    outline-color: #0700c3 !important;
+    outline-color: #c300b9 !important;
 }
 
 .no-hover .user-type-selection .user-type-selection__user:hover:after, .no-hover .user-type-selection .user-type-selection__user:focus:after  {
@@ -243,7 +243,7 @@
     margin: 15px auto 0 auto;
     padding: 15px 30px;
     width: 81%;
-    background: rgb(50, 43, 43);
+    background: rgb(41, 37, 37);
     border: solid 1px grey;
     color: #FFFFFF;
     padding-left: .9375rem !important;
@@ -268,7 +268,7 @@
     }
 }
 .user-type-selection .user-type-selection__button:hover {
-    background-color: black;
+    background-color: rgb(60, 57, 57);
     border: solid 1px black;
 }
 
