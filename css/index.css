@@ -111,6 +111,7 @@ ul{
 
 .learn-more-link{
     transition: 0.3s;
+    color: #000000;
 }
 
 .learn-more-link:hover{
