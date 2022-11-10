@@ -64,7 +64,7 @@
 }
 
 .user-type-selection .user-type-selection__container {
-    background: #860f0f;
+    background: #681e1e;
     display: -webkit-box;
     display: -webkit-flex;
     display: -ms-flexbox;
@@ -112,7 +112,7 @@
     -ms-flex: 0 0 100%;
     flex: 0 0 100%;
     padding: 1.875rem;
-    background: #19849f;
+    background: rgb(99, 138, 197);;
     position: relative;
     -webkit-transition: background-color .5s, padding .5s;
     transition: background-color .5s, padding .5s;
@@ -143,7 +143,7 @@
     top: 50%;
     -webkit-transform: translateY(-50%);
     transform: translateY(-50%);
-    background: rgb(16, 156, 180);
+    background: rgb(99, 138, 197);
     position: absolute;
     z-index: -1;
     -webkit-transition: height .5s, width .5s, background-color .5s;
@@ -162,7 +162,7 @@
 .user-type-selection .user-type-selection__user:hover:after, .user-type-selection .user-type-selection__user:focus-within:after {
     width: calc(100% + 25px);
     height: calc(100% + 100px);
-    background: rgb(145, 28, 28);
+    background: rgb(179, 37, 37);
 }
 
 .user-type-selection__user:focus:after {
